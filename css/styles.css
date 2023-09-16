@@ -1,0 +1,427 @@
+/* rest */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body { 
+    height: 100%;
+}
+html {
+    scroll-behavior: smooth;
+
+}
+
+/* ul{ */
+    list-style: none;
+    width: 1920px;
+    height: 60px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 16px;
+}
+
+/* fonts  */
+
+@font-face {
+    font-family: bf ;
+    src: url(fonts/THEBOLDFONT.ttf);
+}
+
+@font-face {
+    font-family: base;
+    src: url(fonts/BasementGrotesque-Black.ttf);
+}
+
+
+/* start nav */
+nav {
+    width: 1920px;
+    height: 60px;
+}
+nav .links {
+width: 1920px;
+height: 60px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding-right: 60px;
+background-color: black;
+
+}
+
+nav .links a {
+    font-family: bf;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: white;
+
+}
+
+
+
+ .crib {
+    width: 1920px;
+    height: 1080px;
+    background-color: black;
+
+} 
+
+h1{
+    font-size: 250px;
+    color: white;
+    font-family: base;
+}
+h2 {
+    font-size: 200px;
+    color: white;
+    font-family: base;
+}
+h3 {
+    font-family: base ;
+    font-size: 50px ;
+    color: white;
+}
+
+.crib .hero {
+    width: 851px;
+    height: 747px;
+    position: absolute;
+    margin-top: 318px;
+    margin-left: 109px;
+    margin-right: 960px;
+    margin-bottom: 18px;
+    
+}
+
+.hero img {
+    width: 100%;
+}
+
+.title {
+    width: 1085px;
+    height: 300px;
+    /* background-color: beige; */
+}
+
+.title2 {
+    width: 1176px;
+    height: 240px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 726px;
+    margin-right: 14px;
+    margin-bottom: 507px;
+    
+}
+
+
+.name {
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 1247px;
+    margin-right: 303px;
+    margin-bottom: 313px;
+    /* background-color: bisque; */
+}
+
+
+.prada {
+    width: 1920px;
+    height: 1080px;
+    background-color: white;
+}
+
+
+.title3 {
+    width: 1219px;
+    height: 300px;
+    /* background-color: beige; */
+    
+}
+
+.ptitle {
+    font-size: 250px;
+    color: black;
+    font-family: base;
+}
+
+.linksw {
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    background-color: white;
+
+}
+
+nav .linksw a {
+    font-family: bf;
+    font-size: 40px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: black;
+
+}
+
+.container {
+    width: 1387px;
+    height: 467px;
+    /* background-color: bisque ; */
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin: 86px 229px 227px 304px ;
+}
+
+.thumbox {
+    width: 594px;
+    height: 467px;
+    position: relative;
+    /* background-color: rebeccapurple; */
+    
+}
+.thumbox img {
+    width: 100%;
+    height: 467px;
+    opacity: 50%;
+    border: 3px solid black;
+}
+
+.boxtext {
+    width: 403px;
+    height: 110px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    margin-top: -370px;
+    margin-left: 120px;
+}
+
+.pname {
+    font-family: base;
+    font-size: 80px;
+    color: black;
+}
+
+.boxtext2 {
+    width: 403px;
+    height: 110px;
+    /* background-color: blueviolet; */
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 100px;
+}
+
+.pname2 {
+    font-family: base;
+    font-size: 80px;
+    color: black;
+}
+/* .overlay { */
+    width: 100%;
+    height: 467px;
+    background-color: rgba( 0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    color: black;
+    display: none;
+}
+
+/* .thumbox:hover > .overlay { */
+    display: block;
+} 
+
+/* .overlay span { */
+    
+}
+
+.thumbox2 {
+    width: 594px;
+    height: 467px;
+    /* background-color: blue; */
+}
+
+.thumbox2 span {
+    position: relative;
+}
+
+.thumbox2 img {
+    width: 594px;
+    height: 467px;
+    opacity: 50%;
+    border: 3px solid black;
+}
+
+
+.ptitle {
+    font-size: 250px;
+    color: black;
+    font-family: base;
+}
+
+.linksw {
+    width: 1920px;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 60px;
+    background-color: white;
+
+}
+
+.container2 {
+    width: 1672px;
+    height: 467px;
+    /* background-color: cadetblue; */
+    margin: 77px 47px 236px 201px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thumbox3 { 
+    width: 594px;
+    height: 467px;
+    /* background-color: red; */
+}
+
+.thumbox3 img {
+    width: 100%;
+}
+
+.bio {
+    width: 1014px;
+    min-height: 467px;
+    /* background-color: blue; */
+}
+
+.biotext {
+    font-family: base;
+    font-size: 30px;
+    color: black;
+}
+
+
+.contactPage {
+    width: 1920px;
+    height: 1080px;
+    margin-top: -;
+    background-color: white;
+}
+
+.blackback {
+    width: 864px;
+    height: 1080px;
+    background-color: black;
+    margin-top: -60px;
+}
+
+
+
+.ctitle {
+    font-size: 250px;
+    color: black;
+    font-family: base;
+    position: absolute;
+    margin: -1080px 597px 780px 20px;
+    display: flex;
+}
+
+ span {
+    font-size: 250px;
+    color: white;
+    font-family: base;
+}
+.ptwo {
+    font-size: 250px;
+    color: black;
+    font-family: base;
+}
+
+.callout {
+    width: 749px;
+    height: 389px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin: 379px 1121px 316px 50px;
+}
+
+.calltext {
+    font-family: base;
+    font-size: 80px;
+    color: white;
+
+}
+
+.info {
+    width: 839px;
+    height: 123px;
+    /* background-color: aqua; */
+    position: absolute;
+    margin: -650px 86px 509px 995px;
+
+}
+
+.info2 {
+    width: 839px;
+    height: 123px;
+    /* background-color: red; */
+    position: absolute;
+    margin: -460px 86px 509px 995px;
+
+}
+
+
+.info3 {
+    width: 839px;
+    height: 123px;
+    /* background-color: blue; */
+    position: absolute;
+    margin: -270px 86px 509px 995px;
+
+}
+
+.info span {
+    font-family: base;
+    font-size: 51px;
+    color: black;
+}
+
+.info2 span {
+    font-family: base;
+    font-size: 51px;
+    color: black;
+}
+
+.above {
+    display: block;
+}
+
+
+.info3 span {
+    font-family: base;
+    font-size: 51px;
+    color: black;
+}
+
+
+
+.box-shadow {
+    box-shadow: .75em .75em .5em;
+    color: black;
+}
+
+.fillter-shadow {
+    filter: drop-shadow(.75em .75em .5em);
+    color: black;
+}
+
+
